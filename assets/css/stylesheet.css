@@ -48,7 +48,7 @@ h2 {
 #artPort .text1 {transition: opacity 0.5s ease-in-out;}
 #artPort .text1 {position:absolute; top:0; left:0; opacity:0;}
 #artPort:hover .artPort {opacity:0;}
-#artPort:hover .text1 {opacity:1;}  
+#artPort:hover .text1 {opacity:1;color: white;}  
 
 .animPort{
     max-width: 70px;
@@ -60,7 +60,7 @@ h2 {
 #animPort .text2 {transition: opacity 0.5s ease-in-out;}
 #animPort .text2 {position:absolute; top:0; left:0; opacity:0;}
 #animPort:hover .animPort {opacity:0;}
-#animPort:hover .text2 {opacity:1;}  
+#animPort:hover .text2 {opacity:1; color:white;}  
 
 .navbar {
 
@@ -106,8 +106,9 @@ hr {
 }
 .portfolioSitesContainer {
     margin-top: 50px;
+    
     width:100%;
-    padding: 20px;
+    padding: 20px 0 0 20%;
     text-align:center;
 }
 .imageContainer {
