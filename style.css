@@ -1,0 +1,197 @@
+@font-face { font-family: OptimusPrincepsSemiBold; src: url(../css/OptimusPrinceps/OptimusPrincepsSemiBold.ttf); }
+@font-face { font-family: OptimusPrinceps; src: url(../css/OptimusPrinceps/OptimusPrinceps.ttf);}
+@font-face { font-family: Monteros; src: url(../css/Monteros/Monteros.ttf);}
+@font-face { font-family: RollBack; src: url(../css/RollingBack/Rolling\ Back\ Free.ttf);}
+
+* {
+    border:0;
+    padding:0;
+    margin:0;
+}
+body {
+    background-color: rgb(18, 18, 37);
+}
+
+div {
+    width: 100%;
+    height:100vh;
+    border-radius:16px;
+}
+
+div:nth-child(1) {
+
+    background-size:cover;
+}
+div:nth-child(2) {
+    background-color: black;
+    height: 105vh;
+}
+div:nth-child(3) {
+    height:80vh;
+    background-image: url(assets/images/hexa.png);
+    background-attachment: fixed;
+}
+div:nth-child(4){
+    background-color: maroon;
+    height:20vh;
+}
+#greet {
+    font-family: OptimusPrincepsSemiBold;
+    color:white;
+    font-size: 100px;
+    margin-left: 400px;
+}
+p {
+    color:white;
+}
+
+
+#moniter1 {
+    position: absolute;
+    margin: 220px 0 0 -1070px;
+    max-width: 250px;
+    opacity: 1;
+}
+#moniter1:hover {
+    opacity:1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.animator {
+    margin-left:60%;
+    position: absolute;
+    margin-top: -500px;
+    font-size: 40px;
+    max-width: 300px;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 1 ease-in-out;
+}
+.animator:hover {
+    transform: scale(1.5);
+}
+#moniter2 {
+    position: absolute;
+    margin: -40px 0 0 -45px;
+    max-width: 250px;
+    opacity: 1;
+}
+#moniter2:hover {
+    opacity:1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+.developer {
+    position: absolute;
+    z-index: 1;
+    margin-top:-500px;
+    margin-left: 15%;
+    font-size: 40px;
+    max-width:300px;
+    cursor: pointer;
+    transition: all 1 ease-in-out;
+    text-align: center;
+}
+.developer:hover {
+    transform: scale(1.5);
+}
+h1 {
+    color:white;
+    text-align: center;
+    padding-top:50px;
+}
+#educationTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -10px;
+}
+.edu {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    color: white;
+    max-width: 100px;
+    margin-top: -87px;
+    height:600px;
+    margin-left: 100px;
+}
+#FSU {
+    padding:20px 0 10px 0;
+    max-height:80px
+}
+#UGA {
+    max-height:80px;
+    padding:10px 0 10px 0;
+}
+#SCAD {
+    max-height:80px;
+    padding:10px 0 10px 0;
+}
+#GT {
+    max-height:80px;
+    padding:10px 0 0px 0;
+}
+.aboutMe {
+    color:white;
+    position:abosolute;
+    margin-top: -1000px;
+    width: 700px;
+    margin-left: 300px;
+    height: 200px;
+}
+.icon {
+    max-height:40px;
+    float:right;
+    margin-right: 40px;
+}
+.icon:hover {
+    cursor:pointer;
+}
+.content {
+    margin-left: 20%;
+    color:white;
+}
+input{
+    width: 700px;
+    height: 30px;
+}
+textarea {
+    width:700px;
+}
+button {
+    height: 50px;
+    width: 100px;
+    margin-left: 600px;
+}
+.h3 {
+    color:white;
+    margin-left:50%;
+    padding-top: 30px;
+    font-size: 40px;
+}
+h2 {
+    color:white;
+    margin-left: 300px;
+}
+.anport:hover{
+    cursor: pointer;
+}
+.feport:hover{
+    cursor: pointer;
+}
+.linked:hover{
+    cursor: pointer;
+}
+.resume:hover{
+    cursor: pointer;
+}
+.topPage:hover{
+    cursor: pointer;
+}
