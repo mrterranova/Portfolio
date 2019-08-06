@@ -8,6 +8,9 @@
     padding:0;
     margin:0;
 }
+#helloMe {
+    max-width: 700px; height:1000px; margin-top:-258px; margin-left:450px;
+}
 body {
     background-color: rgb(18, 18, 37);
 }
@@ -48,21 +51,6 @@ p {
     color:white;
 }
 
-
-#moniter1 {
-    position: absolute;
-    margin: 220px 0 0 -1070px;
-    max-width: 250px;
-    opacity: 1;
-}
-#moniter1:hover {
-    opacity:1;
-    transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    -webkit-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
-}
-
 .animator {
     margin-left:60%;
     position: absolute;
@@ -76,19 +64,6 @@ p {
 }
 .animator:hover {
     transform: scale(1.5);
-}
-#moniter2 {
-    position: absolute;
-    margin: -40px 0 0 -45px;
-    max-width: 250px;
-    opacity: 1;
-}
-#moniter2:hover {
-    opacity:1;
-    transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    -webkit-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
 }
 .developer {
     position: absolute;
@@ -143,8 +118,8 @@ h1 {
 }
 .aboutMe {
     color:white;
-    position:abosolute;
-    margin-top: -1000px;
+    position:absolute;
+    margin-top: -1100px;
     width: 700px;
     margin-left: 300px;
     height: 200px;
@@ -197,4 +172,71 @@ h2 {
 }
 .topPage:hover{
     cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+#greet {
+    font-family: OptimusPrincepsSemiBold;
+    color:white;
+    font-size: 70px;
+    margin-left: 25%;
+}
+
+div:nth-child(2) {
+    background-color: black;
+    height: 120vh;
+}
+
+.edu {
+display: none;
+}
+.aboutMe {
+    position:absolute;
+    margin-top: -1200px;
+    width: 450px;
+    margin-left: 10px;
+    height: 200px;
+}
+h2 {
+    color:white;
+    margin-left: 20px;
+}
+.content {
+    margin-left: 5%;
+    color:white;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+textarea {
+    width:400px;
+}
+button {
+    height: 30px;
+    width: 100px;
+    margin-left: 40%;
+    margin-top:-20px;
+}
+.h3 {
+    color:white;
+    margin-left:5%;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.icon {
+    max-height:30px;
+    float:right;
+    margin-right: 38px;
+}
+.developer{
+    font-size: 20px;
+    width: 100px;
+}
+.animator{
+    font-size: 20px;
+    width: 100px;
+}
+#helloMe {
+    max-width: 700px; height:800px; margin-top:-72px; margin-left:130px;
+}
 }
