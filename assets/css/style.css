@@ -1,0 +1,100 @@
+@font-face { font-family: OptimusPrincepsSemiBold; src: url(../css/OptimusPrinceps/OptimusPrincepsSemiBold.ttf); }
+@font-face { font-family: OptimusPrinceps; src: url(../css/OptimusPrinceps/OptimusPrinceps.ttf);}
+@font-face { font-family: Monteros; src: url(../css/Monteros/Monteros.ttf);}
+@font-face { font-family: RollBack; src: url(../css/RollingBack/Rolling\ Back\ Free.ttf);}
+
+body {
+    background-color: midnightblue;
+    width: 50%;
+}
+.greetings {
+    font-size: 100px;
+    position: absolute;
+    margin-left: 35%;
+    font-family: OptimusPrincepsSemiBold;
+}
+.imgHolder{
+    position: absolute;
+    margin-top:-50px;
+    width:100%;
+    height:110%;
+    overflow:hidden;
+}
+.tech {
+    position: absolute;
+    margin-top:-800px;
+    margin-left: -250px;
+    width:2000px;
+    z-index: -1;
+}
+.jumbotron {
+    margin-top:50px;
+    height: 650px;
+    overflow:hidden;
+    background-image: url(../images/light_honeycomb.png)
+}
+.selfPhoto {
+    background: url("../images/photoSelf.png");
+    background-size: 800px;
+    margin-top:-150px;
+    margin-left: 50%;
+    background-repeat: no-repeat;
+    height:800px;
+    width: 800px;
+    position: absolute;
+}
+#moniter1 {
+    position: absolute;
+    margin: -20px 0 0 -30px;
+    max-width: 250px;
+    opacity: 0;
+}
+#moniter1:hover {
+    opacity:1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.animator {
+    margin-left:63%;
+    position: absolute;
+    margin-top: 170px;
+    font-size: 40px;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 1 ease-in-out;
+}
+.animator:hover {
+    transform: scale(1.5);
+}
+.animator:hover ~ .selfPhoto {
+    opacity:0;
+}
+#moniter2 {
+    position: absolute;
+    margin: -48px 0 0 -45px;
+    max-width: 250px;
+    opacity: 0;
+}
+#moniter2:hover {
+    opacity:1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+.developer {
+    position: absolute;
+    z-index: 1;
+    margin-top:150px;
+    margin-left: 10%;
+    font-size: 40px;
+    max-width:300px;
+    cursor: pointer;
+    transition: all 1 ease-in-out;
+}
+.developer:hover {
+    transform: scale(1.5);
+}
