@@ -19,7 +19,10 @@ div {
 }
 
 div:nth-child(1) {
-
+    background-size:cover;
+}
+#parallax {
+    background-image: url(assets/images/tech.png);
     background-size:cover;
 }
 div:nth-child(2) {
