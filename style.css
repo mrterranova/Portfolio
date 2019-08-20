@@ -38,7 +38,7 @@ div:nth-child(3) {
     background-attachment: fixed;
 }
 div:nth-child(4){
-    background-color: maroon;
+    background-color: rgb(107, 8, 8);
     height:20vh;
 }
 #greet {
