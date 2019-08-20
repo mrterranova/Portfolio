@@ -4,3 +4,5 @@ Updated Portfolio project. Working on animation sequences for loading as well as
 
 Work in progress:
 https://mrterranova.github.io/Portfolio/
+
+STill under construction...
