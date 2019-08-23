@@ -78,12 +78,15 @@ h2 {
     text-align: center;
     background-color:rgb(252, 214, 214);
 }
+
 .navbar-brand {
     margin-left:20px;
 }
+
 .navImg {
     margin-left: 10px;
 }
+
 hr {
     width: 70px;
     height:1px;
