@@ -176,6 +176,7 @@ font-weight: bold;
     max-width: 200px;
     padding: 0 30px 0 0;
 }
+
 #skull:hover {
     animation: bounce 1s;
 }
@@ -184,9 +185,11 @@ font-weight: bold;
     max-width: 140px;
     padding: 0 20px 0 10px;
 }
+
 #art:hover {
     animation: bounce 1s;
 }
+
 #hat {
     max-width: 180px;
     padding: 20px 30px 0 0;
