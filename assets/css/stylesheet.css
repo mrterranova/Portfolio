@@ -2,6 +2,7 @@
 @font-face { font-family: OptimusPrinceps; src: url(../css/OptimusPrinceps/OptimusPrinceps.ttf);}
 @font-face { font-family: Monteros; src: url(../css/Monteros/Monteros.ttf);}
 @font-face { font-family: RollBack; src: url(../css/RollingBack/Rolling\ Back\ Free.ttf);}
+
 body{
     background: url(../images/image1.jpg);
     background-size: 100% 100%;
@@ -11,17 +12,20 @@ h1 {
     font-family: OptimusPrincepsSemiBold;
     text-align: center;
 }
+
 h2 {
     padding: 0 20% 0 20%;
     font-family: OptimusPrincepsSemiBold;
     text-align: center;
 }
+
 .self {
     max-width: 450px;
     position: absolute;
     margin-top: -230px;
     /* margin-left: 60%; */
 }
+
 .jumboImg {
     position: absolute;
     width:100.5%;
@@ -38,6 +42,7 @@ h2 {
     overflow:hidden;
     color: rgb(252, 214, 214);
 }
+
 .artPort{
     max-width: 70px;
     margin-left:40px;
