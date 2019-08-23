@@ -285,6 +285,7 @@ font-weight: bold;
             padding: 20px;
             text-align:center;
         }
+
         #title {
         font-family: Monteros;
         font-size: 22px;
@@ -303,14 +304,18 @@ font-weight: bold;
         }
 
 }
+
 @media only screen and (max-width: 646px){
     
     .artPort{
         max-width: 60px;
         margin-left:35px;
     }
+
     #artPort {
-        position:relative; width:120px; height:125px; float:left; margin-left:30%;}
+        position:relative; width:120px; height:125px; float:left; margin-left:30%;
+    }
+
     .portfolioSitesContainer {
         width:104%;
     }
@@ -324,3 +329,4 @@ font-weight: bold;
         margin: 30px 0 20px 40%;
         cursor: pointer;
     }
+}
