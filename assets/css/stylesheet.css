@@ -98,16 +98,20 @@ hr {
     width: 80%;
     height: 400px;
 }
+
 #port {
     max-width: 30px;
 }
+
 #home {
     max-width: 30px;
     margin-right: 10px;
 }
+
 #contact {
     max-height: 30px;
 }
+
 .descriptions {
     width:500px;
     margin-left: 10%;
@@ -117,6 +121,7 @@ hr {
     padding:10px;
     text-align:center;
 }
+
 .portfolioSitesContainer {
     margin-top: 50px;
     
@@ -124,6 +129,7 @@ hr {
     padding: 20px 0 0 20%;
     text-align:center;
 }
+
 .imageContainer {
     font-family: Monteros;
     width: 125px;
