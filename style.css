@@ -254,15 +254,18 @@ button {
     padding-top: 30px;
     font-size: 40px;
 }
+
 .icon {
     max-height:30px;
     float:right;
     margin-right: 38px;
 }
+
 .developer{
     font-size: 20px;
     width: 100px;
 }
+
 .animator{
     font-size: 20px;
     width: 100px;
