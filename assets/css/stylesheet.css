@@ -274,8 +274,10 @@ font-weight: bold;
         max-width: 50px;
         margin-left: 40px;
     }
+
     #animPort {
-        position:relative; width:120px; height:125px;float:left; margin-left:30%;}
+        position:relative; width:120px; height:125px;float:left; margin-left:30%;
+    }
 
         .portfolioSitesContainer {
             width:103%;
