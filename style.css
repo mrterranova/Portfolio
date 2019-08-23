@@ -53,6 +53,7 @@ div:nth-child(4){
     font-size: 100px;
     margin-left: 400px;
 }
+
 p {
     color:white;
 }
@@ -68,9 +69,11 @@ p {
     cursor: pointer;
     transition: all 1 ease-in-out;
 }
+
 .animator:hover {
     transform: scale(1.5);
 }
+
 .developer {
     position: absolute;
     z-index: 1;
@@ -82,6 +85,7 @@ p {
     transition: all 1 ease-in-out;
     text-align: center;
 }
+
 .developer:hover {
     transform: scale(1.5);
 }
