@@ -216,10 +216,12 @@ font-weight: bold;
 #tram:hover {
     animation: bounce 1s;
 }
+
 #books {
     max-width: 200px;
     padding: 10px 40px 0 0;
 }
+
 #books:hover {
     animation: bounce 1s;
 }
@@ -240,6 +242,7 @@ font-weight: bold;
     z-index: -2;
     
 }
+
 .div2 {
     margin-top:330px;
     width:100%;
@@ -248,6 +251,7 @@ font-weight: bold;
     position: absolute;
     z-index: -2;
 }
+
 .div3 {
     margin-top:900px;
     width:100%;
@@ -258,7 +262,8 @@ font-weight: bold;
 
 @media only screen and (max-width: 992px){
     #artPort {
-        position:relative; width:120px; height:125px; float:left; margin-left:10%;}
+        position:relative; width:120px; height:125px; float:left; margin-left:10%;
+    }
 
     .artPort{
         max-width: 50px;
