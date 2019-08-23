@@ -89,6 +89,7 @@ p {
 .developer:hover {
     transform: scale(1.5);
 }
+
 h1 {
     color:white;
     text-align: center;
@@ -99,6 +100,7 @@ h1 {
     font-size: 20px;
     margin-left: -10px;
 }
+
 .edu {
     display: flex;
     justify-content: center;
@@ -110,22 +112,27 @@ h1 {
     height:600px;
     margin-left: 100px;
 }
+
 #FSU {
     padding:20px 0 10px 0;
     max-height:80px
 }
+
 #UGA {
     max-height:80px;
     padding:10px 0 10px 0;
 }
+
 #SCAD {
     max-height:80px;
     padding:10px 0 10px 0;
 }
+
 #GT {
     max-height:80px;
     padding:10px 0 0px 0;
 }
+
 .aboutMe {
     color:white;
     position:absolute;
