@@ -59,16 +59,21 @@ h2 {
     max-width: 70px;
     margin-left: 40px;
 }
+
 #animPort {
     position:relative; width:120px; height:125px;float:left; margin-left:35%;}
+
 #animPort .animPort,
+
 #animPort .text2 {transition: opacity 0.5s ease-in-out;}
+
 #animPort .text2 {position:absolute; top:0; left:0; opacity:0;}
+
 #animPort:hover .animPort {opacity:0;}
+
 #animPort:hover .text2 {opacity:1; color:white;}  
 
 .navbar {
-
     font-family: Monteros;
     text-align: center;
     background-color:rgb(252, 214, 214);
