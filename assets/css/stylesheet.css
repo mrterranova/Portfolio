@@ -150,6 +150,9 @@ font-weight: bold;
 .imageContainer:hover {
     background-color: rgb(252, 214, 214);
 }
+.aboutMe {
+    margin-top: 700px;
+}
 
 @keyframes bounce {
 	0%, 15%, 50%, 80%, 100% {
